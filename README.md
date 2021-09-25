@@ -4,7 +4,7 @@
 
 Esse trabalho foi feito como forma de obtenção de nota parcial à matéria de Introdução à Computação do primeiro período do curso de Sistemas de Informação da Universidade do Estado do Amazonas. 
 
-Decidi usar o sistema de preparação de textos LaTeX para fazer o trabalho visando o aprendizado do uso da ferramenta. Para atender às normas da ABNT (Associação Brasileira de Normas Técnicas), utilizei a suíte [**abnTeX2**](https://github.com/abntex/abntex2), evolução do abnTeX (ABsurd Norms for TeX `*`).
+Decidi usar o sistema de preparação de textos LaTeX visando o aprendizado do uso da ferramenta. Para atender às normas da ABNT (Associação Brasileira de Normas Técnicas), utilizei a suíte [**abnTeX2**](https://github.com/abntex/abntex2), evolução do abnTeX (ABsurd Norms for TeX `*`).
 
 ## Status 📈
 
