@@ -2,13 +2,13 @@
 
 ## Sobre 📚
 
-Esse trabalho foi feito como forma de obtenção de nota parcial à matéria de Introdução à Computação do primeiro período do curso de Sistemas de Informação da Universidade do Estado do Amazonas. 
+Esse trabalho foi feito como forma de obtenção de nota parcial à matéria de Introdução à Computação do primeiro período do curso de Sistemas de Informação da Universidade do Estado do Amazonas.
 
 Decidi usar o sistema de preparação de textos LaTeX visando o aprendizado do uso da ferramenta. Para atender às normas da ABNT (Associação Brasileira de Normas Técnicas), utilizei a suíte [**abnTeX2**](https://github.com/abntex/abntex2), evolução do abnTeX (ABsurd Norms for TeX `*`).
 
 ## Status 📈
 
-O trabalho ainda está em desenvolvimento: é necessário (1) formatá-lo conforme os requisitos das normas da ABNT, (2) terminar o texto principal sobre as contribuições dee Alan Turing e (3) inserir as referências bibliográficas.
+O trabalho ainda está em desenvolvimento: ainda é necessário (1) terminar o texto principal sobre as contribuições dee Alan Turing e (2) inserir as referências bibliográficas.
 
 ## Autor 🤓
 
