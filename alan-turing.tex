@@ -116,7 +116,7 @@
 % ----------------------------------------------------------
 % ELEMENTOS PRÉ-TEXTUAIS
 % ----------------------------------------------------------
-% \pretextual
+%\pretextual
 
 % ---
 % Capa
@@ -130,10 +130,25 @@
 \imprimirfolhaderosto
 % ---
 
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
 % ------------------------------------------------------------
 % Texto principal vai aqui
 % ------------------------------------------------------------
+\chapter*{}
 \section*{Contribuições de Alan Turing à Ciência da Computação}
+\addcontentsline{toc}{section}{Contribuições de Alan Turing à Ciência da Computação}
 % ------------------------------------------------------------
 
 Alan Mathison Turing foi um matemático inglês pioneiro da ciência da computação teórica e inteligência artificial. Ele nasceu em 23 de junho de 1912 em Londres e morreu em 7 de junho de 1954, vítima de envenenamento por cianeto, em sua casa em Cheshire. Na época um inquérito concluiu que foi suicídio, embora isso tenha sido contestado mais recentemente pelo professor Jack Copeland, um especialista na vida do cientista, que atribuiu sua morte à inalação acidental de fumaça de cianeto durante um experimento. Dois anos antes ele fora levado a julgamento e declarado culpado por "ato de indecência grosseira", ele era homossexual. Sua punição foi sofrer castração química.
@@ -143,5 +158,9 @@ Durante o tempo em que estudou na Universidade de Princeton, Alan desenvolveu a 
 Além de ajudar a fundamentar o conhecimento do que seria o computador digital eletrônico, Turing também criou, entre os anos de 1940 e 1943: (1) uma máquina chamada \textit{Bombe} capaz de decifrar as mensagens codificadas pelo \textit{Enigma}, dispositivo usado pelas forças armadas da Alemanha para se comunicarem de forma segura durante a Segunda Guerra Mundial, (2) uma técnica complexa de quebra de código nomeada \textit{Turingery}, usada contra as mensagens com cifra de Lorenz produzida pela nova máquina de codificação dos alemães e (3) um sistema de fala chamado \textit{Delilah}, em que era possível codificar e decodificar comunicações por voz.
 
 Após encurtar a duração da Segunda Guerra Mundial em, no mínimo, 2 anos, salvando incontáveis vidas, o matemático tornou-se subdiretor do Laboratório de Computação da Universidade de Manchester em 1949 e escreveu seu famoso artigo \textit{Computing Machinery and Intelligence} (Máquinas de Computação e Inteligência) em 1950. Nesse artigo, ele abordou pela primeira vez o assunto da Inteligência Artificial (IA) e concebeu um método hoje chamado Teste de Turing. Segundo ele, esse método conseguiria determinar se o comportamento demonstrado por uma máquina poderia ser considerado "inteligente".  O teste influenciou significativamente pesquisas na área de IA. As contribuições de Alan Turing à Ciência da Computação foram inúmeras e hoje são reconhecidas e comemoradas durante a realização anual do "Prêmio Turing", o maior prêmio da indústria, considerado o "Prêmio Nobel da computação".
+
+\bibliography{abntex2-modelo-references}
+
+
 
 \end{document}
