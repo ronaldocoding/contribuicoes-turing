@@ -8,7 +8,7 @@ Decidi usar o sistema de preparação de textos LaTeX visando o aprendizado do u
 
 ## Status 📈
 
-O trabalho ainda está em desenvolvimento: é necessário: inserir o sumário e as referências bibliográficas.
+O trabalho está concluído.
 
 ## Autor 🤓
 
